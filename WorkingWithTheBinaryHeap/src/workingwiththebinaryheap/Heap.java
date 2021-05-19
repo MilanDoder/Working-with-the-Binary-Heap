@@ -6,6 +6,7 @@
 package workingwiththebinaryheap;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 /**
  *
@@ -112,5 +113,13 @@ public abstract class Heap<T extends Comparable<T>> {
         return first;
                 
     }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(array); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+    
     
 }

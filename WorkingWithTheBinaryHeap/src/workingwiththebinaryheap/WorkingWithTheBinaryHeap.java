@@ -40,8 +40,28 @@ public class WorkingWithTheBinaryHeap {
         System.out.println(removeHighestPriority );
         
         System.out.println(maxHeap);
-
         
+        
+        //MIN heap
+        System.out.println("\n\nMIN HEAP\n\n");
+        MinHeap<Integer> minHeap =  new MinHeap<>(Integer.class);
+        
+        minHeap.insert(9);
+        minHeap.insert(15);
+        minHeap.insert(4);
+        minHeap.insert(10);
+        minHeap.insert(54);
+        minHeap.insert(2);
+        minHeap.insert(-1);
+        minHeap.insert(35);
+        System.out.println(minHeap);        
+
+        minHeap.insert(21);
+        System.out.println(minHeap);
+
+
+        minHeap.insert(9);
+        System.out.println(minHeap);        
     }
     
 }
